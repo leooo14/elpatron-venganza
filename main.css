@@ -1,0 +1,26 @@
+.carousel-inner {
+ max-height: 39rem;
+} 
+
+@media( max-width:768px) {
+    #intro {
+        width:90%  !important;
+       
+}
+}
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+#bg-contacto{
+    position:relative;
+    top: -130px;
+}
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position:relative;
+}
